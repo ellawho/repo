@@ -1,0 +1,9 @@
+---
+layout: default    
+title: Reverse Proxy
+nav_order: 2
+has_children: true
+parent: Nginx
+permalink: /nginx/reverse-proxy
+has_toc: false
+---

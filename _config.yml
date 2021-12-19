@@ -1,0 +1,67 @@
+title: Geekyflare Repo
+description: Learning the fundamentals
+logo: "/assets/images/geekyflare-logo.png"
+baseurl: "/repo" 
+url: "https://repo.geekyflare.com"
+
+permalink: pretty
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "docs/tests/"]
+
+remote_theme: pmarsceill/just-the-docs@v0.3.3
+#theme: just-the-docs
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  preview_words_before: 3
+  preview_words_after: 3
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+heading_anchors: true
+
+nav_sort: case_sensitive
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Proudly Powered by <a href=\"https://ellawho.com?utm_source=geekyflare-repo&utm_medium=Backlink&utm_campaign=geekyflare-repo-backlink\" target=\"_blank\">EllaWho</a>"
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+color_scheme: nil
+# color_scheme: dark
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+#辅助功能，在页面右上角，可点击进入GitHub资料库      
+#aux_links:
+#  "EllaWho GitHub":
+#    - "//github.com/ellawho/repo"
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

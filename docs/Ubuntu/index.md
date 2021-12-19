@@ -1,0 +1,10 @@
+---
+layout: default    
+title: Ubuntu
+nav_order: 3
+has_children: true
+permalink: /ubuntu
+has_toc: true
+---
+
+## Power of Nginx 

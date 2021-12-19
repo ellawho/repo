@@ -1,0 +1,35 @@
+---
+layout: default    
+title: Nginx Fundamentals
+nav_order: 1
+has_children: true
+parent: Nginx
+permalink: /nginx/nginx-fundamentals
+has_toc: true
+---
+
+![Nginx-Logic-Image](../../assets/images/nginx/nginx.png)
+
+## Nginx vs Apache 
+
+
+| **Nginx:**                                    | **Apache:**                                          |
+| :-------------------------------------------- | :--------------------------------------------------- |
+| synchronised                                  | `.htaccess` overwrites                               |
+| faster on static files                        | interprets incoming requests as filesystem locations |
+| faster on more requests                       |                                                      |
+| interprets incoming requests as URI locations |                                                      |
+
+
+## Package install 
+```bash
+apt install nginx
+ps aux | grep nginx
+#checking nginx is running 
+```
+* ps >> processor 
+* aux >> all users execute 
+
+## Nginx from source & Adding modules 
+* nginx.org >> download the modules 
+* nginx.com >> pay for products 
