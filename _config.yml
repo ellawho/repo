@@ -1,7 +1,7 @@
 title: Geekyflare Repo
 description: Learning the fundamentals
 logo: "/assets/images/geekyflare-logo.png"
-baseurl: "/repo" 
+baseurl: "" 
 url: "https://repo.geekyflare.com"
 
 permalink: pretty
