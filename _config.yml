@@ -44,7 +44,7 @@ kramdown:
 #辅助功能，在页面右上角，可点击进入GitHub资料库      
 aux_links:
   "Repo on GitHub":
-    - "//github.com/ellawho/repo"
+    - "https://github.com/ellawho/repo"
   "Geekyflare":
     - 'https://geekyflare.com'
 # Exclude from processing.
