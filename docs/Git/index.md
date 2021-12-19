@@ -4,7 +4,7 @@ title: Git
 nav_order: 1
 has_children: true
 permalink: /git
-has_toc: false # this line to disable table of content
+has_toc: true 
 ---
 [//]: <> below `open` can be removed, so Table of Contents is default closed not collapsed.
 
@@ -24,8 +24,6 @@ has_toc: false # this line to disable table of content
 
 Git is to **synchronise files** between local machine and remote repository. I was quite confused in the beginning but eventually got the logic after trying again and again. 
 
-1. [Git Local >> Remote](/docs/git/local-to-remote)
-2. [Git Remote >> Local](/docs/git/remote-to-local)
 
 [//]: <> {: .no_toc } is to skip this heading in `table of contents` 
 
