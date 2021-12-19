@@ -127,6 +127,10 @@ Under the same directory, do:
 
 ```
 git remote add origin https://github.com/USER/my-repo-name.git
+
+You might see this: error: remote origin already exists.
+Ignore and run the next command
+
 git pull origin gh-pages 
 ```
 
