@@ -42,10 +42,11 @@ kramdown:
       line_numbers: false
 
 #辅助功能，在页面右上角，可点击进入GitHub资料库      
-#aux_links:
-#  "EllaWho GitHub":
-#    - "//github.com/ellawho/repo"
-
+aux_links:
+  "Repo on GitHub":
+    - "//github.com/ellawho/repo"
+  "Geekyflare":
+    - 'https://geekyflare.com'
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
