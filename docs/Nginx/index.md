@@ -7,4 +7,8 @@ permalink: /nginx
 has_toc: true
 ---
 
-## Power of Nginx 
+## The power of Nginx 
+
+![Nginx-Logic-Image](../assets/images/nginx/nginx.png)
+
+It was really interesting to go through little configuration each time to see what's possible and how nginx can scale.
