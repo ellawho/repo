@@ -6,6 +6,10 @@ parent: Git
 permalink: /git/publish-jekyll-theme-to-github-pages
 ---
 
+## How to publish jekyll `just-the-docs` theme to Github Pages? 
+
+It took me a while to work out the steps and workaround to publish my repo to GitHub Pages, as it kept failing when deploying. Here I summarise the steps for my own reference. 
+
 <details open markdown="block">
   <summary>
     Table of contents
