@@ -106,9 +106,14 @@ bundle install
 Before pushing to remote Github, you can check locally too on `http://127.0.0.1:4000/` 
 
 ```
-bundle exec jekyll serve >> open http://127.0.0.1:4000/
-bundle exec jekyll clean >> to clean cache files, so after checked locally, to purge the local cache.
+bundle exec jekyll serve
 ```
+>> You can browse site: `http://127.0.0.1:4000/`
+
+```
+bundle exec jekyll clean 
+```
+>> to clean cache files, so after checked locally, to purge the local cache.
 
 ---
 
