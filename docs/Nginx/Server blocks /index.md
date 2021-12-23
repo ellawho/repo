@@ -7,3 +7,5 @@ parent: Nginx
 permalink: /nginx/server-blocks
 has_toc: false
 ---
+
+## Server Blocks 
