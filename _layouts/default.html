@@ -189,6 +189,10 @@ layout: table_wrappers
                 {% if footer_custom != "" or site.last_edit_timestamp or site.gh_edit_link %}
                 <hr>
                 <footer>
+                    <div>
+                        <a href="#top"><img src="/assets/images/back-to-top-icon.png" alt="back-to-top-icon"
+                                style="position: fixed; bottom: 5%; right: 5%; width:40px;" /></a>
+                    </div>
                     {% if site.back_to_top %}
                     <p><a href="#top" id="back-to-top">{{ site.back_to_top_text }}</a></p>
                     {% endif %}
