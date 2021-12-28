@@ -7,8 +7,8 @@ url: "https://repo.geekyflare.com"
 permalink: pretty
 
 
-#remote_theme: pmarsceill/just-the-docs@v0.3.3
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs@v0.3.3
+#theme: just-the-docs
 
 plugins:
   - jekyll-feed
