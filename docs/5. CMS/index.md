@@ -1,6 +1,6 @@
 ---
 layout: default    
-title: Content Management System (CMS)
+title: CMS
 nav_order: 5
 has_children: true
 permalink: /cms
