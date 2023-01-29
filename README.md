@@ -1,2 +1,0 @@
-# repo
-A learning repo
