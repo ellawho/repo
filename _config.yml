@@ -1,8 +1,8 @@
-title: Geekyflare Repo
+title: EllaWho's Repo
 description: Learning the fundamentals
-logo: "/assets/images/geekyflare-logo.png"
+logo: "/assets/images/ew_logo.png"
 baseurl: "" 
-url: "https://repo.geekyflare.com"
+url: "https://repo.ellawho.com"
 
 permalink: pretty
 
@@ -44,8 +44,8 @@ kramdown:
 
 #辅助功能，在页面右上角，可点击进入GitHub资料库      
 aux_links:
-  "Geekyflare":
-    - 'https://geekyflare.com'
+  "EllaWho's Repo":
+    - 'https://repo.ellawho.com'
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
